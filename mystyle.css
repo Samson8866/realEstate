@@ -17,3 +17,25 @@ h1,h2,h3{
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+/*header*/
+header{
+    background-image: url(./realEstate-img-main/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+    margin-right: 20px;
+}
