@@ -39,3 +39,69 @@ header{
     color: white;
     margin-right: 20px;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* about */
+.about-container {
+    display: flex;
+    gap: 20px;
+}
+/* Houses */
+.house-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.houses-item {
+    background-color: #dedede;
+    margin-right: 10px;
+}
+
+.houses-item-img{
+    width: 100%;
+    height: auto;
+}
+
+.house-item-text{
+    padding: 20px;
+}
+
+.price{
+    color: green;
+    font-weight: bold;
+}
+
+.icon-container{
+    display: flex;
+}
+
+.icon-container-img {
+    margin-right: 20px;
+}
+
+.icon-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* utilities */
+.btn {
+    display: block;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.house-combined{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}

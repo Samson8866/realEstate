@@ -1,0 +1,148 @@
+/* global */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --bg-blue: #0072cd;
+    --bg-yellow: #fbe892;
+}
+
+div[class^="flex-cont"] {
+    margin-bottom: 20px;
+}
+
+h1{
+    color: #0072cd;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p {
+    background: var(--bg-yellow);
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* ========= Row ========== */
+/* flex-start */
+.flex-container-row-start {
+    background:  var(--bg-blue);
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/* center */
+.flex-container-row-center{
+background: var(--bg-blue);
+display: flex;
+justify-content: center;
+}
+
+/* flex-end */
+.flex-container-row-end {
+    background: var(--bg-blue);
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* space-between */
+.flex-container-row-between {
+    background: var(--bg-blue);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* space-around */
+.flex-container-row-around {
+    background: var(--bg-blue);
+    display: flex;
+    justify-content: space-around;
+}
+
+/* space-evenly */
+.flex-container-row-evenly {
+    background: var(--bg-blue);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ========= Column ========== */
+.flex-container-column-start {
+background: var(--bg-blue);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+/* align-items: flex-start; */
+}
+
+.flex-container-column-center {
+    background: var(--bg-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.flex-container-column-end {
+    background: var(--bg-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.flex-container-column-stretch {
+background: var(--bg-blue);
+display: flex;
+flex-direction: column;
+align-items: stretch;
+}
+
+/* ========= Challenges ========== */
+.flex-container-row-column {
+    background: var(--bg-blue);
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-container-row-column-2 {
+    background: var(--bg-blue);
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex-container-row-column-3 {
+    background: var(--bg-blue);
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.flex-container-row-column-4 {
+    background: var(--bg-blue);
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.flex-container-row-column-5 {
+    background: var(--bg-blue);
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
