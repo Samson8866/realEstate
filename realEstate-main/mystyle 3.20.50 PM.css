@@ -28,6 +28,13 @@ header{
     text-align: center;
 }
 
+.bar-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
 .menu-bar{
     display: flex;
     flex-direction: row;
@@ -45,6 +52,8 @@ header{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* about */
@@ -53,9 +62,17 @@ header{
     gap: 20px;
 }
 /* Houses */
-.house-container{
+.house-combined{
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.house-container{
+    display: flex;
 }
 .houses-item {
     background-color: #dedede;
@@ -100,8 +117,30 @@ header{
     border-radius: 5px;
 }
 
-.house-combined{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
+/* contact */
+.contact-header{
+    background-color: orange;
+}
+
+.contact-container{
+    width: 80%;
+    margin: 0  auto;
+}
+.contact-header a{
+    color: black;
+}
+
+.form-container {
+    background-color: #dedede;
+    padding: 20px;
+    border-radius: 10px;
+}
+legend {
+    font-size: 12px;
+}
+
+fieldset {
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
 }
